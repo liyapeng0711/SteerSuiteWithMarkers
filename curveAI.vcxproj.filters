@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="curveAI">
+      <UniqueIdentifier>{4C94E14F-75DD-3646-BAB3-CC434F880F66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curveAI\include">
+      <UniqueIdentifier>{C6AF051E-D910-1B42-A16B-4EE5F0739053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curveAI\src">
+      <UniqueIdentifier>{BBAA8ADD-CA25-1746-A129-5069797B1616}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\curveAI\include\CurveAgent.h">
+      <Filter>curveAI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\curveAI\include\CurveAIModule.h">
+      <Filter>curveAI\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\curveAI\src\CurveAgent.cpp">
+      <Filter>curveAI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\curveAI\src\CurveAIModule.cpp">
+      <Filter>curveAI\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

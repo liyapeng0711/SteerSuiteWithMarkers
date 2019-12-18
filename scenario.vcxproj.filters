@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="scenario">
+      <UniqueIdentifier>{B3057F33-4282-B344-852F-62A2F4D0590D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenario\include">
+      <UniqueIdentifier>{A8809386-E9DF-1849-BF90-E449F23D5807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenario\src">
+      <UniqueIdentifier>{E6458928-0658-A34C-B84D-9387E8502237}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\scenario\include\ScenarioModule.h">
+      <Filter>scenario\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\scenario\src\ScenarioModule.cpp">
+      <Filter>scenario\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
