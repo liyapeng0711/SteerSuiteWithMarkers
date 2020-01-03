@@ -109,6 +109,7 @@
       <OutputFile>$(OutDir)searchAI.dll</OutputFile>
       <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>..\bin\searchAI.lib</ImportLibrary>
+      <AdditionalDependencies>C:\Users\Yapeng\Downloads\steersuite-rutgers-master\steersuite-rutgers-master\build\marker\Release\marker.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

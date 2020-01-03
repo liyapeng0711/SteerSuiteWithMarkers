@@ -111,6 +111,7 @@
       <OutputFile>$(OutDir)navmesh.dll</OutputFile>
       <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>..\bin\navmesh.lib</ImportLibrary>
+      <AdditionalDependencies>C:\Users\Yapeng\Downloads\steersuite-rutgers-master\steersuite-rutgers-master\build\marker\Release\marker.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
